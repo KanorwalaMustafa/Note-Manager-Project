@@ -116,3 +116,15 @@ form#add input[type='submit']:hover{
     background: #7c9f34;
 }
 /* ul li p:nth-child() */
+
+/*======================= Media Query =======================*/
+
+@media only screen and (max-width:425px) {
+    #add-btn{
+        /* margin-top: 2rem; */
+        display: block;
+        /* text-align: center; */
+        margin:  1rem auto;
+    }
+    
+}
